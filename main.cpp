@@ -28,14 +28,13 @@ string str="FCHJTIPK ZWZIPHZ BEAA GDIC PZZPDIGEAAW ILC ZPJEKEIP FEIPQCKGPZ. IUP 
     cout<<endl;
     for (int i=0;i<str.size();i++)
         {
-        if (str[i]=='P') str[i]='E';//Часто встречается P
+        if      (str[i]=='P') str[i]='E';//Часто встречается P
         else if (str[i]=='I') str[i]='T';//Тоже самое с I
         else if (str[i]=='E') str[i]='A';//Искал подходящую шифровку ARE
         else if (str[i]=='K') str[i]='R';
         else if (str[i]=='D') str[i]='N';
         else if (str[i]=='S') str[i]='D';
         else if (str[i]=='U') str[i]='H';
-        else if (str[i]=='T') str[i]='U';
         else if (str[i]=='J') str[i]='P';
         else if (str[i]=='H') str[i]='M';
         else if (str[i]=='F') str[i]='C';
@@ -45,8 +44,12 @@ string str="FCHJTIPK ZWZIPHZ BEAA GDIC PZZPDIGEAAW ILC ZPJEKEIP FEIPQCKGPZ. IUP 
         else if (str[i]=='W') str[i]='Y';
         else if (str[i]=='G') str[i]='I';
         else if (str[i]=='B') str[i]='F';
-        else if (str[i]=='L') str[i]='T';
+        else if (str[i]=='L') str[i]='W';
         else if (str[i]=='Q') str[i]='G';
+        else if (str[i]=='T') str[i]='U';
+        else if (str[i]=='W') str[i]='A';
+        else if (str[i]=='Y') str[i]='X';
+        else if (str[i]=='N') str[i]='K';
         else if (str[i]=='T') str[i]='W';
         }
     cout<<str<<endl;
